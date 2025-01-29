@@ -1,16 +1,16 @@
-import Appbar from "../Components/Appbar"
-import Main from "../Components/Main"
+import React from 'react'
+import Appbar from '../Components/Appbar'
+import Main from '../Components/Main'
 
-export function Features() {
+export default function Features() {
   return (
-
-   <>
+    <>
    
     <Appbar />
       <Main>
     <div className=' h-screen bg-gradient-to-bl from-blue-100 via-white to-blue-100'>
       <div className='justify-items-center'>
-        <div className='justify-items-center w-xl pt-14'>
+        <div className='justify-items-center w-xl pt-2'>
           <h1 className='font-black text-4xl'>Features</h1>
           <p className=' text-center pt-6 pb-6 text-gl'>We provide a number of excellent feature that will undoubtedly improve the user experience. We also provide a better sopport system</p>
         </div>
@@ -53,5 +53,9 @@ export function Features() {
     </Main>
 
     </>
+
+   
   )
 }
+
+

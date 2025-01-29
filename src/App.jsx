@@ -1,12 +1,13 @@
 import React from 'react'
 import { Route, Routes } from 'react-router'
 import { Home } from './pages/Home'
-import { Services } from './pages/Services'
+import Contact from './pages/Contact'
 import Details from './pages/Details'
-import { Features } from './pages/Features'
-import { Projects } from './pages/Projects'
-import { Team } from './pages/Team'
-import { Contact } from './pages/Contact'
+import Features from './pages/Features'
+import Projects from './pages/Projects'
+import Services from './pages/Services'
+import Team from './pages/Team'
+
 
 export default function App() {
 

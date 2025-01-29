@@ -1,8 +1,8 @@
-import Appbar from "../Components/Appbar"
-import Main from "../Components/Main"
+import React from 'react'
+import Appbar from '../Components/Appbar'
+import Main from '../Components/Main'
 
-function Details() {
-  
+export default function Details() {
   return (
     <>
     <Appbar />
@@ -34,6 +34,11 @@ function Details() {
     </Main>
 
   </>
+
   )
 }
-export default Details
+
+
+
+
+
