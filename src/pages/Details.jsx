@@ -1,7 +1,8 @@
 import Appbar from "../Components/Appbar"
 import Main from "../Components/Main"
 
-export function Details() {
+function Details() {
+  
   return (
     <>
     <Appbar />
@@ -35,3 +36,4 @@ export function Details() {
   </>
   )
 }
+export default Details

@@ -35,9 +35,9 @@ function Appbar() {
                     </li>
                 </ul>
             </nav>
-            <nav className='flex gap-15 mx-40 items-center'>
+            <nav className='flex gap-15 md:me-118 items-center'>
               <span className='font-semibold text-blue-600 hover:underline hover:text-pink-500'>Log in</span>
-              <button className='h-8 w-25 rounded-xl bg-gradient-to-br from-pink-400 to-blue-500 bg-clip-text text-transparent border-1 border-pink-300 hover:border-pink-500 hover:text-pink-500'>Sign Up</button>
+              <button className='h-8 w-25 font-semibold rounded-xl bg-gradient-to-br from-pink-400 to-blue-500 bg-clip-text text-transparent border-2 border-blue-300 hover:border-pink-500 hover:text-pink-500'>Sign Up</button>
             </nav>
         </header>
   )
