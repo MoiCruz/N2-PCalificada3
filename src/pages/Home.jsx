@@ -10,7 +10,7 @@ export function Home() {
         <div className='flex flex-col h-full'>
           <div className='flex md:ps-50 relative'>
             <div className='flex flex-col w-138'>
-              <h1 className='pt-30 text-6xl font-black bg-gradient-to-br from-pink-300 to-blue-600 bg-clip-text text-transparent'>Bootstrap 5 theme</h1>
+              <h1 className='pt-30 text-6xl font-black bg-gradient-to-br from-pink-400 to-blue-400 bg-clip-text text-transparent'>Bootstrap 5 theme</h1>
               <h2 className='text-5xl pt-5'>crafted by <span className='font-bold'>ThemeWagon</span></h2>
               <p className='text-lg w-120 mb-15 mt-7'>ThemeWagon offer an wide array of category-oriented Free and Premium Bootstrap HTML Templates and Themes</p>
               <button className='h-12 w-40 rounded-lg text-white font-bold bg-gradient-to-br from-pink-400 to-blue-400 hover:text-lg'>Check Demo</button>
